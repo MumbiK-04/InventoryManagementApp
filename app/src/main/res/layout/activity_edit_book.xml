@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lilac_light"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/edit_details_title"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/lilac_dark"
+            android:gravity="center"
+            android:layout_marginBottom="24dp"/>
+
+        <EditText
+            android:id="@+id/etTitle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:padding="12dp"
+            android:hint="@string/hint_title"
+            android:inputType="text"
+            android:layout_marginBottom="12dp"
+            android:importantForAutofill="no"/>
+
+        <EditText
+            android:id="@+id/etAuthor"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:padding="12dp"
+            android:hint="@string/hint_author"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="12dp"
+            android:importantForAutofill="no"/>
+
+        <EditText
+            android:id="@+id/etPrice"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:padding="12dp"
+            android:hint="@string/hint_selling_price"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="12dp"
+            android:importantForAutofill="no"/>
+
+        <EditText
+            android:id="@+id/etBuyingPrice"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:padding="12dp"
+            android:hint="@string/hint_buying_price"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="12dp"
+            android:importantForAutofill="no"/>
+
+        <EditText
+            android:id="@+id/etQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:padding="12dp"
+            android:hint="@string/hint_quantity"
+            android:inputType="number"
+            android:layout_marginBottom="30dp"
+            android:importantForAutofill="no"/>
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/btn_save_changes"
+            android:backgroundTint="@color/lilac_main"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/btn_delete_item"
+            android:backgroundTint="#D32F2F"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F8F9FA"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Business Reports"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#C8A2C8" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generate and export your sales data"
+        android:textSize="14sp"
+        android:textColor="#757575"
+        android:layout_marginBottom="30dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:elevation="4dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:src="@android:drawable/ic_menu_save"
+            android:contentDescription="PDF Icon"
+            app:tint="#BA68C8" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Export Sales as PDF"
+            android:layout_marginTop="15dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#333333" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Click the button below to select a time range and download your financial report."
+            android:layout_marginTop="8dp"
+            android:textColor="#666666" />
+
+        <Button
+            android:id="@+id/btnDownloadPdf"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="25dp"
+            android:text="Generate Report"
+            android:backgroundTint="#BA68C8"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Files are saved in Internal Storage > Downloads"
+        android:textSize="12sp"
+        android:textColor="#999999" />
+
+</LinearLayout>

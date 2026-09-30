@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/my_cart_items"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#BA68C8"
+        android:layout_marginBottom="10dp"/>
+
+    <ListView
+        android:id="@+id/cartListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="#EEEEEE"
+        android:dividerHeight="1dp" />
+
+    <TextView
+        android:id="@+id/tvTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/total_ksh_0_0"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textColor="#333333"/>
+
+    <Button
+        android:id="@+id/btnCheckout"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="@string/proceed_to_checkout"
+        android:backgroundTint="#BA68C8"
+        android:textColor="#FFFFFF"
+        android:textAllCaps="false"/>
+
+</LinearLayout>

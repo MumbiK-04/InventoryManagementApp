@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Tausi Inventory Management</string>
+    <string name="app_name_admin">Tausi Admin</string>
+    <string name="cashier_terminal_title">Cashier Terminal</string>
+    <string name="default_email">cashier@tausi.com</string>
+
+    <string name="nav_stock">Stock</string>
+    <string name="nav_add">Add</string>
+    <string name="nav_orders">Orders</string>
+    <string name="nav_users">Users</string>
+    <string name="nav_reports">Reports</string>
+    <string name="manage_stock_crud">Manage Stock (CRUD)</string>
+
+    <string name="btn_new_sale">New Walk-in Sale</string>
+    <string name="btn_view_inventory">Check Stock Levels</string>
+    <string name="btn_add_item">Add Item</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_save_changes">Save Changes</string>
+    <string name="btn_delete_item">Delete Item</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_logout">Logout</string>
+    <string name="btn_sales_history">Sales History</string>
+    <string name="btn_view_stock">Search Inventory</string>
+
+
+    <string name="select_item">Select Item:</string>
+    <string name="quantity_sold">Quantity Sold</string>
+    <string name="process_sale">Process Sale</string>
+
+    <string name="checking_stock">Checking Stock...</string>
+    <string name="low_stock_warning">Low Stock Alert</string>
+    <string name="pending_deliveries_placeholder">Pending Deliveries: 0</string>
+    <string name="label_total_profit">Total Profit</string>
+    <string name="label_top_seller">Top Seller</string>
+    <string name="label_profit_margin">Profit Margin</string>
+    <string name="title_weekly_trend">Weekly Sales Trend</string>
+    <string name="title_profit_share">Profit Share by Category</string>
+    <string name="new_walk_in_sale">New Walk-in Sale</string>
+    <string name="hint_title">Title</string>
+    <string name="hint_author">Author / Brand</string>
+    <string name="hint_selling_price">Selling Price (Ksh)</string>
+    <string name="hint_buying_price">Buying Price (Cost)</string>
+    <string name="hint_quantity">Quantity in Stock</string>
+    <string name="edit_details_title">Edit Item Details</string>
+    <string name="placeholder_dash">---</string>
+    <string name="default_currency">Ksh 0.00</string>
+    <string name="default_percent">0%</string>
+    <string name="daily_total_initial">Today\'s Total: Ksh 0.00</string>
+    <string name="product_image_desc">Product Image</string>
+    <string name="default_item_name">Item Name</string>
+    <string name="default_price_ksh">Ksh 0</string>
+    <string name="default_quantity">1</string>
+    <string name="increase_quantity">Increase Quantity</string>
+    <string name="decrease_quantity">Decrease Quantity</string>
+    <string name="remove_item">Remove Item</string>
+</resources>

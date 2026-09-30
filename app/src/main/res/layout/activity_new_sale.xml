@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:background="@color/white">
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/new_walk_in_sale"
+    android:textSize="22sp"
+    android:textStyle="bold"
+    android:textColor="#212121"
+    android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_item"
+        android:textColor="#424242"
+        android:layout_gravity="start"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="8dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerProducts"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="24dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/quantity_sold"
+            android:inputType="number"
+            android:textColor="#000000"
+            android:textColorHint="#575757" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnCompleteSale"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:text="@string/process_sale"
+        android:backgroundTint="#6750A4"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
